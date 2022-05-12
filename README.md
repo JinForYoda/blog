@@ -1,0 +1,2 @@
+# blog
+small blog application
