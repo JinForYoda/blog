@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/blong/static/css/main.ea1afd95.css",
-    "main.js": "/blong/static/js/main.ecb40daf.js",
-    "index.html": "/blong/index.html",
-    "main.ea1afd95.css.map": "/blong/static/css/main.ea1afd95.css.map",
-    "main.ecb40daf.js.map": "/blong/static/js/main.ecb40daf.js.map"
+    "main.css": "/blog/static/css/main.ea1afd95.css",
+    "main.js": "/blog/static/js/main.ecb40daf.js",
+    "index.html": "/blog/index.html",
+    "main.ea1afd95.css.map": "/blog/static/css/main.ea1afd95.css.map",
+    "main.ecb40daf.js.map": "/blog/static/js/main.ecb40daf.js.map"
   },
   "entrypoints": [
     "static/css/main.ea1afd95.css",
