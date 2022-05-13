@@ -14,7 +14,7 @@ export default function Main() {
 
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter basename="/blog">
                 <Routes>
                     <Route path="*" element={<Navigate to="/posts" />} />
                     <Route path="/posts" element={<PostList />} />
