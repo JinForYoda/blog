@@ -16,7 +16,7 @@ export default function Main() {
         <>
             <BrowserRouter>
                 <Routes>
-                    <Route path="*" element={<Navigate to="/posts" />} />
+                    <Route path="*" element={<Navigate to="/blog/posts" />} />
                     <Route path="posts" element={<PostList />} />
                     <Route path="/posts/:id" element={<SpecPost />} />
                 </Routes>
