@@ -23,7 +23,7 @@ export default function PostList() {
                 <Row className="gap-5">
                     {postList.map((post) => (
                         <Card style={{ width: '18rem' }} key={post.id}>
-                            <Card.Body>
+                            <Card.Body className="d-flex flex-column justify-content-between">
                                 <Card.Title>{post.title}</Card.Title>
                                 <Card.Text>{post.body}</Card.Text>
                                 <div className="d-flex justify-content-between">
