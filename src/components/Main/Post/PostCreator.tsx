@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import './PostForm.css'
 import { Button, Form } from 'react-bootstrap'
-import { useAppDispatch } from '../../app/hooks'
-import { BlogFetch as Fetch } from '../../utils/Tools'
-import { BlogTypes as Types } from '../../utils/Types'
+import { useAppDispatch } from '../../../app/hooks'
+import { BlogFetch as Fetch } from '../../../utils/Tools'
+import { BlogTypes as Types } from '../../../utils/Types'
 
 export default function PostCreator() {
     const dispatch = useAppDispatch()

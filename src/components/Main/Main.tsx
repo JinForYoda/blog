@@ -2,8 +2,8 @@ import { useEffect } from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { useAppDispatch } from '../../app/hooks'
 import { BlogFetch as Fetch } from '../../utils/Tools'
-import PostList from './PostList'
-import SpecPost from './SpecPost'
+import PostList from './Post/PostList'
+import SpecPost from './Post/SpecPost'
 
 export default function Main() {
     const dispatch = useAppDispatch()
